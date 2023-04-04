@@ -1,4 +1,4 @@
-from MCTS_NodeDrop import MCTF
+from MCTF import MCTF
 from time import time
 
 mctf = MCTF()
