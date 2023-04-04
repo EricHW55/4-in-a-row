@@ -1,5 +1,5 @@
 from env import connect4
-from MCTS_NodeDrop import MCTF
+from MCTF import MCTF
 from copy import deepcopy
 import random
 from time import sleep
