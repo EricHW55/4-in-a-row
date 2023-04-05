@@ -16,3 +16,6 @@
 ------------
 > ### +) tree_nd.txt
 > > train.py로 학습한 Tree 저장 파일. 용량 문제로 업로드 X
+------------
+> ### 6. create_db.py
+> > SQLite DB 제작. # Table : TREE (node_id, state, player, child, parent, win, visit)
