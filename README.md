@@ -19,3 +19,5 @@
 ------------
 > ### 6. create_db.py
 > > SQLite DB 제작. # Table : TREE (node_id, state, player, child, parent, win, visit)
+> ### 7. tree_txt_to_db.py
+> > .txt 파일(텍스트 파일)로 저장된 트리를 데이터 베이스로 저장
