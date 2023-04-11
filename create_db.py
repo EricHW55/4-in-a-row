@@ -16,7 +16,8 @@ sql = """CREATE TABLE "TREE" (
 	"child"	TEXT NOT NULL,
 	"parent"	TEXT NOT NULL,
 	"win"	INTEGER NOT NULL,
-	"visit"	INTEGER NOT NULL
+	"visit"	INTEGER NOT NULL,
+	PRIMARY KEY (node_id)
 );"""
 cur = con.cursor()
 cur.execute(sql)
