@@ -37,7 +37,7 @@ class MCTF:
             action = random.choice(action_number)   # actino random으로 선택
             action_done = self.env.action(x_pos=action)  # action 진행
             while not action_done:  # action이 안된다면
-                self.env.change_player()
+#                 self.env.change_player()
                 action_number.remove(action)  # 안되는 action 제거
                 action = random.choice(action_number)  # action 다시 선택
                 action_done = self.env.action(x_pos=action)  # action 진행
